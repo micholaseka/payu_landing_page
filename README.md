@@ -14,9 +14,20 @@ heading chunky 800, grid backdrop, marquee strip kuning, interaksi
 ```bash
 npm install
 npm run dev      # http://localhost:5173
-npm run build    # produksi → dist/
-npm run preview  # cek hasil build
+npm run build    # produksi → dist/ + standalone/payu-landing.html
+npm run preview  # cek hasil build di localhost
 ```
+
+### Kenapa white screen kalau `index.html` di-double-click?
+
+`dist/index.html` memuat JS sebagai **module eksternal**, dan browser
+memblokir pemanggilan modul saat halaman dibuka lewat protokol `file://`
+(hanya HTTP/HTTPS yang diizinkan) → `<div id="root">` tetap kosong.
+
+**Solusi:**
+1. Jalankan `npm run dev` atau `npm run preview` (butuh server), **atau**
+2. Buka langsung **`standalone/payu-landing.html`** (hasil `npm run build`) —
+   file tunggal, JS & CSS sudah di-inline, jalan dengan double-click biasa.
 
 ## Struktur
 
