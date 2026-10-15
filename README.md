@@ -1,8 +1,8 @@
-# NAIKAN — Landing Page Jasa Promosi & Affiliate (React + Vite)
+# PayU — Landing Page Jasa Promosi & Affiliate (React + Vite)
 
-Landing page untuk perusahaan **jasa promosi/affiliate**: mempromosikan
-produk & jasa klien lewat affiliate marketing, social ads, dan influencer,
-dengan model bayar berbasis hasil.
+Landing page untuk **PayU** sebagai perusahaan **jasa promosi/affiliate**:
+mempromosikan produk & jasa klien lewat affiliate marketing, social ads,
+dan influencer, dengan model bayar berbasis hasil.
 
 Desain **neo-brutalist** yang diadaptasi dari template referensi
 [TIDE Retail Commerce System (aura.build)](https://www.aura.build/templates/tide-retail-commerce-system-1).
@@ -58,7 +58,8 @@ src/
 
 ## Kustomisasi cepat
 
-- **Nama brand & CTA:** `BRAND` di `src/data.js` (logo & footer ikut otomatis)
+- **Nama brand & CTA:** `BRAND` di `src/data.js` (logo, footer, dan sebagian
+  kalimat ikut otomatis mengikuti nama brand)
 - **Teks/konten lain:** tetap di `src/data.js` (layanan, keunggulan, alur,
   stats, timeline, spec kerja sama)
 - **Warna:** variabel di `:root` pada `src/index.css`
@@ -66,5 +67,9 @@ src/
 - **Countdown promo:** `promoEnd()` di `src/components/Program.jsx`
 - **Email kontak:** `Contact.jsx` (`mailto`)
 
-> Catatan: halaman ini adalah demo untuk referensi desain — angka & klaim
-> bersifat ilustratif.
+## Sisa yang perlu dibenahi (sebelum projek tamat)
+
+- [ ] Angka di section stats & klaim lain → data riil
+- [ ] Email/WA kontak asli di `Contact.jsx`
+- [ ] Copy final tiap section (judul & paragraf)
+- [ ] Jika perlu: portofolio/case study, logo klien, testimoni, tabel harga, FAQ

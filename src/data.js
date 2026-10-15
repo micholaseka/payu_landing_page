@@ -5,7 +5,7 @@
    ============================================================ */
 
 export const BRAND = {
-  name: "NAIKAN",
+  name: "PAYU",
   tagline: "promotion partner",
   ctaPrimary: "MULAI PROMOSI",
   ctaSecondary: "LIHAT LAYANAN",

@@ -17,7 +17,7 @@ export default function Platform() {
                 <span className="dot dot-red" />
                 <span className="dot dot-yellow" />
                 <span className="dot dot-green" />
-                <span className="terminal-name">naikan-core — kerja-sama.spec</span>
+                <span className="terminal-name">payu-core — kerja-sama.spec</span>
               </div>
               <span className="terminal-status">
                 <span className="terminal-status-dot" aria-hidden="true" />

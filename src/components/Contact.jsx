@@ -56,9 +56,9 @@ export default function Contact() {
               </span>
             )}
           </div>
-          <a className="contact-mail" href="mailto:halo@naikan.demo">
+          <a className="contact-mail" href="mailto:halo@payu.demo">
             <iconify-icon icon="solar:letter-linear" />
-            halo@naikan.demo
+            halo@payu.demo
           </a>
         </Reveal>
       </div>
