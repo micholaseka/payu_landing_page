@@ -22,23 +22,24 @@ export default function Hero() {
         <Reveal>
           <div className="badge">
             <span className="badge-dot" aria-hidden="true" />
-            PAYMENT GATEWAY · QRIS READY · MERCHANT DI SELURUH INDONESIA
+            AGENSI PROMOSI · AFFILIATE &amp; SOCIAL ADS · BERBASIS PERFORMA
           </div>
         </Reveal>
         <Reveal delay={120}>
           <h1 className="hero-title">
-            Terima pembayaran,
+            Jualan naik.
             <br />
-            <span className="hero-title-accent">semuanya</span>
+            <span className="hero-title-accent">Promosinya</span>
             <br />
-            dalam satu integrasi.
+            kami urus.
           </h1>
         </Reveal>
         <Reveal delay={240}>
           <p className="hero-sub">
-            PayU menghubungkan kartu, virtual account, e-wallet, QRIS, dan gerai
-            retail lewat satu checkout — dengan anti-fraud real-time, dashboard
-            lengkap, dan settlement yang bisa diandalkan.
+            {BRAND.name} mempromosikan produk dan jasa klien lewat affiliate
+            marketing, social ads, dan influencer — dengan model bayar berbasis
+            hasil. Kamu fokus berjualan, kami yang mengurus supaya produkmu
+            dilihat, dicari, dan dibeli.
           </p>
         </Reveal>
         <Reveal delay={320}>
@@ -55,7 +56,7 @@ export default function Hero() {
             <a className="btn btn-primary" href="#kontak">
               {BRAND.ctaPrimary}
             </a>
-            <a className="btn btn-ghost" href="#fitur">
+            <a className="btn btn-ghost" href="#layanan">
               {BRAND.ctaSecondary}
               <iconify-icon icon="solar:arrow-down-linear" />
             </a>

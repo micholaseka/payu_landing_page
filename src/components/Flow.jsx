@@ -11,8 +11,8 @@ export default function Flow() {
       <div className="container">
         <SectionHead
           tag="02 / ALUR"
-          title="Satu transaksi, dari klik sampai dana masuk."
-          intro="Lima tahap, satu sistem. Arahkan kursor ke setiap tahap untuk melihat apa yang terjadi di balik layar."
+          title="Dari audit sampai penjualan pertama."
+          intro="Lima tahap, satu tim. Arahkan kursor ke setiap tahap untuk melihat apa yang terjadi di balik layar."
         />
         <Reveal>
           <div className="flow-panel">
@@ -51,8 +51,8 @@ export default function Flow() {
             </div>
           </div>
           <p className="caption">
-            TITIK KUNING YANG BERGERAK ADALAH SATU TRANSAKSI YANG MENEMPUH
-            SELURUH ALUR — TANPA VENDOR DI TENGAH.
+            TITIK KUNING YANG BERGERAK ADALAH SATU PRODUK YANG MENEMPUH SELURUH
+            ALUR PROMOSI — TANPA VENDOR DI TENGAH.
           </p>
         </Reveal>
       </div>

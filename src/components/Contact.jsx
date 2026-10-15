@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { BRAND } from "../data";
 import { Reveal } from "./ui";
 
 export default function Contact() {
@@ -22,11 +23,12 @@ export default function Contact() {
             KONTAK
           </div>
           <h2 className="section-title contact-title">
-            Siap terima pembayaran online?
+            Siap dinaikkan penjualannya?
           </h2>
           <p className="contact-sub">
-            Tinggalkan email bisnismu — tim PayU akan menghubungi dengan simulasi
-            biaya dan panduan integrasi yang sesuai tokomu.
+            Tinggalkan email bisnismu — kami kirim audit singkat dan proposal
+            strategi promosi yang sesuai produkmu. Konsultasi pertama gratis,
+            tanpa kewajiban lanjut.
           </p>
           <form onSubmit={submit} noValidate className="contact-form">
             <input
@@ -36,12 +38,12 @@ export default function Contact() {
                 setEmail(e.target.value);
                 setStatus(null);
               }}
-              placeholder="nama@perusahaan.co.id"
+              placeholder="nama@brandkamu.com"
               aria-label="Alamat email"
               className={`contact-input ${status === "error" ? "is-error" : ""}`}
             />
             <button type="submit" className="btn btn-primary">
-              KIRIM PENAWARAN
+              KIRIM PROPOSAL
             </button>
           </form>
           <div className="contact-status" role="status">
@@ -50,13 +52,13 @@ export default function Contact() {
             )}
             {status === "sent" && (
               <span className="contact-success">
-                TERIMA KASIH — TIM PAYU AKAN SEGERA MENGHUBUNGIMU
+                TERIMA KASIH — TIM {BRAND.name} AKAN SEGERA MENGHUBUNGIMU
               </span>
             )}
           </div>
-          <a className="contact-mail" href="mailto:halo@payu-landing.demo">
+          <a className="contact-mail" href="mailto:halo@naikan.demo">
             <iconify-icon icon="solar:letter-linear" />
-            halo@payu-landing.demo
+            halo@naikan.demo
           </a>
         </Reveal>
       </div>

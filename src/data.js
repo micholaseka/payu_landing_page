@@ -1,220 +1,221 @@
 /* ============================================================
-   Konten seluruh section landing page — ubah teks di sini
-   tanpa perlu menyentuh komponen.
+   Konten seluruh section landing page NAIKAN
+   (jasa promosi & affiliate — ubah teks di sini tanpa
+   perlu menyentuh komponen)
    ============================================================ */
 
+export const BRAND = {
+  name: "NAIKAN",
+  tagline: "promotion partner",
+  ctaPrimary: "MULAI PROMOSI",
+  ctaSecondary: "LIHAT LAYANAN",
+};
+
 export const NAV = [
-  { label: "FITUR", href: "#fitur" },
-  { label: "MENGAPA", href: "#mengapa" },
+  { label: "LAYANAN", href: "#layanan" },
+  { label: "KEUNGGULAN", href: "#keunggulan" },
   { label: "ALUR", href: "#alur" },
-  { label: "INTEGRASI", href: "#integrasi" },
-  { label: "ROADMAP", href: "#program" },
+  { label: "KERJA SAMA", href: "#kerja-sama" },
+  { label: "ONBOARDING", href: "#onboarding" },
 ];
 
 export const TYPE_PHRASES = [
-  "KARTU / VA / E-WALLET / QRIS — SATU INTEGRASI",
-  "TERIMA PEMBAYARAN DI MANA PUN PELANGGANMU BERADA",
-  "ANTI-FRAUD REAL-TIME & SETTLEMENT CEPAT",
-  "GO-LIVE PERTAMA HANYA DALAM 5 MENIT",
+  "AFFILIATE / SOCIAL ADS / INFLUENCER — SATU TIM",
+  "PROMOSI BERBASIS PERFORMA, BUKAN FEELING",
+  "KOMISI PER PENJUALAN — HASILNYA TERLIHAT",
+  "DARI BELUM TERKENAL SAMPAI ROAS 5X",
 ];
 
 export const MARQUEE = [
-  "TERIMA SEMUA PEMBAYARAN",
-  "PCI-DSS COMPLIANT",
-  "QRIS READY",
-  "20+ METODE BAYAR",
-  "SANDBOX GRATIS",
-  "SETTLEMENT CEPAT",
-  "ANTI-FRAUD REAL-TIME",
-  "TIM PENDUKUNG 24/7",
+  "AFFILIATE MARKETING",
+  "SOCIAL MEDIA ADS",
+  "INFLUENCER SEEDING",
+  "KONTEN KREATIF",
+  "LIVE & TIKTOK SHOP",
+  "KOMISI PER PENJUALAN",
+  "LAPORAN REAL-TIME",
+  "HASIL TERUKUR",
 ];
 
 export const STATS = [
   {
-    value: 20,
+    value: 500,
     suffix: "+",
-    label: "METODE PEMBAYARAN",
-    note: "kartu, VA, e-wallet, QRIS, retail",
+    label: "BRAND & UMKM DIBANTU",
+    note: "dari fashion, F&B, sampai elektronik",
   },
   {
-    value: 99,
+    value: 3,
+    suffix: "x",
+    label: "RATA-RATA ROAS",
+    note: "target minimum yang kami kejar sejak awal",
+  },
+  {
+    value: 98,
     suffix: "%",
-    label: "UPTIME PLATFORM",
-    note: "diinfrastruktur yang dimonitor 24/7",
-  },
-  {
-    value: 5,
-    suffix: " MENIT",
-    label: "GO-LIVE PERTAMA",
-    note: "dari sandbox ke transaksi pertama",
+    label: "KLIEN LANJUT KERJA SAMA",
+    note: "setelah tiga bulan pertama berjalan",
   },
 ];
 
 export const MODULES = [
   {
-    icon: "solar:card-linear",
-    en: "KARTU",
-    id: "Visa, Mastercard, JCB",
+    icon: "solar:card-transfer-linear",
+    en: "AFFILIATE",
+    id: "mitra afiliasi & komisi per penjualan",
   },
   {
-    icon: "solar:banknote-linear",
-    en: "VIRTUAL ACCOUNT",
-    id: "BCA, BNI, BRI, Mandiri & lainnya",
+    icon: "solar:bolt-linear",
+    en: "SOCIAL ADS",
+    id: "Meta, TikTok, & Google Ads",
   },
   {
-    icon: "solar:wallet-linear",
-    en: "E-WALLET",
-    id: "OVO, DANA, LinkAja, ShopeePay",
+    icon: "solar:users-group-rounded-linear",
+    en: "INFLUENCER",
+    id: "nano sampai macro KOL",
   },
   {
-    icon: "solar:qr-code-linear",
-    en: "QRIS",
-    id: "satu kode untuk semua aplikasi",
+    icon: "solar:video-library-linear",
+    en: "KONTEN KREATIF",
+    id: "foto, video pendek, copywriting",
+  },
+  {
+    icon: "solar:clapperboard-play-linear",
+    en: "LIVE SHOP",
+    id: "host live & TikTok Shop",
   },
   {
     icon: "solar:shop-linear",
-    en: "RETAIL",
-    id: "Alfamart & Indomaret",
+    en: "MARKETPLACE ADS",
+    id: "Shopee, Tokopedia, Lazada",
   },
   {
-    icon: "solar:card-transfer-linear",
-    en: "PAYOUT",
-    id: "disbursement massal ke banyak bank",
+    icon: "solar:window-frame-linear",
+    en: "LANDING PAGE",
+    id: "halaman konversi & uji A/B",
   },
   {
-    icon: "solar:refresh-linear",
-    en: "LANGGANAN",
-    id: "tagihan berulang otomatis",
-  },
-  {
-    icon: "solar:shield-check-linear",
-    en: "ANTI-FRAUD",
-    id: "penyaringan tiap transaksi",
+    icon: "solar:chart-2-linear",
+    en: "LAPORAN",
+    id: "dashboard real-time & transparan",
   },
 ];
 
 export const WHY = [
   {
     icon: "solar:card-transfer-linear",
-    title: "Satu integrasi, semua metode",
-    body: "Kartu, virtual account, e-wallet, QRIS, dan gerai retail berjalan lewat satu checkout. Tidak perlu kontrak dan integrasi berulang untuk setiap channel pembayaran.",
+    title: "Bayar sesuai hasil",
+    body: "Model komisi, flat bulanan, atau hybrid — dipilih bersama sejak awal dan tercantum di kontrak. Kalau penjualan tidak naik, kami tidak untung. Insentif kami sejalan dengan margin bisnismu.",
   },
   {
-    icon: "solar:database-linear",
-    title: "Satu dashboard, semua data",
-    body: "Transaksi, settlement, refund, dan laporan berada di satu tempat. Rekonsiliasi otomatis setiap hari — tanpa spreadsheet tambahan, tanpa tebak-tebakan.",
+    icon: "solar:users-group-rounded-linear",
+    title: "Satu tim, semua kanal",
+    body: "Tim kreatif, performance marketer, dan manager afiliasi bergerak sebagai satu tim. Tidak perlu rekrut tiga vendor berbeda untuk TikTok, Meta, dan program affiliate.",
   },
   {
-    icon: "solar:shield-check-linear",
-    title: "Anti-fraud real-time",
-    body: "Setiap transaksi disaring sebelum dana diteruskan. Deteksi anomaly, rule yang bisa diatur sendiri, dan notifikasi instan menekan chargeback sejak hari pertama.",
+    icon: "solar:chart-2-linear",
+    title: "Angka sebelum opini",
+    body: "Setiap rupiah iklan terlacak sampai penjualan. Dashboard real-time dan laporan mingguan memberi keputusan jelas: apa yang diskalakan, apa yang dimatikan.",
   },
 ];
 
 export const NODES = [
   {
     id: "01",
-    icon: "solar:cart-linear",
-    name: "CHECKOUT",
-    label: "Pelanggan bayar",
-    body: "Pelanggan memilih produk di tokomu, lalu menekan tombol bayar di halaman checkout — desktop maupun mobile.",
+    icon: "solar:magnifer-linear",
+    name: "AUDIT",
+    label: "Produk dibedah",
+    body: "Kami bedah produk, margin, harga kompetitor, dan audiens yang paling mungkin beli — sebelum satu rupiah pun dibelanjakan.",
   },
   {
     id: "02",
-    icon: "solar:card-linear",
-    name: "PEMBAYARAN",
-    label: "Pilih metode",
-    body: "Mereka membayar dengan kartu, transfer virtual account, e-wallet, QRIS, atau tunai di gerai retail terdekat.",
+    icon: "solar:routing-2-linear",
+    name: "STRATEGI",
+    label: "Kanal & model dipilih",
+    body: "Kanal promosi, pembagian budget, dan model komisi dirancang bersama. Semua pihak tahu target dan aturan mainnya sejak hari pertama.",
   },
   {
     id: "03",
-    icon: "solar:monitor-smartphone-linear",
-    name: "VERIFIKASI",
-    label: "Status otomatis",
-    body: "Status pembayaran terkonfirmasi otomatis dalam hitungan detik dan langsung terhubung ke sistem pesananmu.",
+    icon: "solar:video-library-linear",
+    name: "PRODUKSI",
+    label: "Materi promosi dibuat",
+    body: "Foto, video pendek, copywriting, dan materi jualan afiliasi disiapkan tim kreatif — siap ditests, bukan dipublikasikan asal.",
   },
   {
     id: "04",
-    icon: "solar:shield-check-linear",
-    name: "ANTI-FRAUD",
-    label: "Penyaringan",
-    body: "Setiap transaksi disaring mesin anti-fraud PayU. Transaksi mencurigakan ditahan untuk ditinjau sebelum dana diteruskan.",
+    icon: "solar:bolt-linear",
+    name: "KAMPANYE",
+    label: "Semua kanal serentak",
+    body: "Iklan, konten influencer, dan jaringan afiliasi dijalankan bersamaan dengan pelacakan penuh — setiap penjualan tahu asalnya dari mana.",
   },
   {
     id: "05",
-    icon: "solar:wallet-linear",
-    name: "SETTLEMENT",
-    label: "Dana masuk",
-    body: "Dana masuk ke rekening perusahaanmu sesuai jadwal settlement, dan laporan lengkapnya menunggu di dashboard.",
+    icon: "solar:chart-square-linear",
+    name: "SKALA",
+    label: "Yang menang ditingkatkan",
+    body: "Kanal dan kreatif terlaris diberi budget lebih; yang rugi dimatikan. Penjualan naik, biaya per penjualan cenderung turun.",
   },
 ];
 
 export const PIPELINE_DEFAULT =
-  "Dari pelanggan menekan tombol bayar sampai dana masuk rekeningmu, seluruh alur berjalan di satu sistem — tanpa middleware, tanpa rekonsiliasi manual antar vendor. Titik bergerak di atas adalah satu transaksi yang menempuh jalur itu.";
+  "Dari audit produk sampai penjualan masuk, seluruh proses berjalan dalam satu alur kerja — brief, kreatif, iklan, dan afiliasi menyatu, bukan bersilaturahmi lewat spreadsheet. Titik bergerak di atas adalah satu produk yang menempuh jalur promosi itu.";
 
 export const PLATFORM = [
   {
-    key: "METODE BAYAR",
-    spec: "20+ metode — kartu, virtual account, e-wallet, QRIS, retail",
-    note: "satu akun, semua channel pembayaran terhubung",
+    key: "MODEL KERJA SAMA",
+    spec: "Komisi per penjualan · flat bulanan · hybrid",
+    note: "dipilih bersama, tercantum di kontrak sejak awal",
   },
   {
-    key: "CHECKOUT",
-    spec: "Hosted & non-hosted · mobile-first · tokenisasi kartu",
-    note: "tampilan bisa disesuaikan dengan brand tokomu",
+    key: "KANAL PROMOSI",
+    spec: "Meta Ads · TikTok Ads · Google Ads · marketplace ads",
+    note: "ditambah kanal organik dan influencer",
   },
   {
-    key: "INTEGRASI",
-    spec: "REST API & SDK Web, iOS, Android · plugin WooCommerce, Shopify",
-    note: "dokumentasi lengkap dan sandbox gratis",
+    key: "KREATIF",
+    spec: "Tim in-house: foto, video pendek, copywriting, landing page",
+    note: "revisi sampai materi lolos standar kampanye",
   },
   {
-    key: "KEAMANAN",
-    spec: "TLS end-to-end · 3D Secure · audit berkala",
-    note: "kepatuhan PCI-DSS dan enkripsi data sensitif",
+    key: "AFFILIATE",
+    spec: "Jaringan mitra afiliasi · TikTok Affiliate · marketplace affiliate",
+    note: "komisi mudah diatur per produk dan per partner",
   },
   {
-    key: "LAPORAN",
-    spec: "Real-time transaction log · export CSV · API reporting",
-    note: "rekap harian & rekonsiliasi otomatis",
+    key: "TRACKING",
+    spec: "Pixel, UTM, dan laporan terpisah per kampanye & per kreatif",
+    note: "setiap rupiah iklan terlihat posisinya",
   },
   {
-    key: "DUKUNGAN",
-    spec: "Tim sales & teknis 24/7 · onboarding merchant",
-    note: "pendampingan dari registrasi hingga go-live",
+    key: "ONBOARDING",
+    spec: "Brief 30 menit · materi awal dari klien",
+    note: "kampanye bisa live dalam 7 hari kerja",
   },
 ];
 
 export const TIMELINE = [
   {
     period: "HARI 0",
-    title: "Daftar & verifikasi akun",
+    title: "Audit & penandatanganan kerja sama",
     status: "COMPLETE",
-    note: "Kirim dokumen perusahaan, akun disetujui tim PayU.",
+    note: "Produk, margin, dan target dibedah; model komisi disepakati.",
   },
   {
-    period: "HARI 1",
-    title: "Integrasi di sandbox",
+    period: "HARI 2–3",
+    title: "Setup kanal & materi promosi",
     status: "IN PROGRESS",
-    note: "Pasang SDK atau plugin, uji seluruh metode bayar.",
+    note: "Pixel dipasang, kreatif dan materi afiliasi diproduksi.",
   },
   {
     period: "HARI 7",
-    title: "Uji end-to-end & aktivasi",
+    title: "Kampanye live",
     status: "SCHEDULED",
-    note: "Skenario transaksi nyata disimulasikan, lalu mode produksi diaktifkan.",
+    note: "Iklan dan afiliasi berjalan serentak dengan laporan harian.",
   },
   {
-    period: "SETELAHNYA",
-    title: "Scale & optimasi konversi",
+    period: "MINGGU KE-3",
+    title: "Optimasi & scale",
     status: "PLANNED",
-    note: "Aktifkan fitur lanjutan: subscription, payout massal, dan laporan lanjutan.",
+    note: "Budget dialihkan ke kanal & kreatif yang paling menghasilkan.",
   },
 ];
-
-export const BRAND = {
-  name: "PAYU",
-  tagline: "payment gateway",
-  ctaPrimary: "MULAI SEKARANG",
-  ctaSecondary: "LIHAT FITUR",
-};

@@ -1,4 +1,5 @@
 import { useInView } from "../hooks";
+import { BRAND } from "../data";
 
 /* wrapper dengan animasi muncul saat scroll */
 export function Reveal({ children, delay = 0, className = "" }) {
@@ -28,15 +29,15 @@ export function SectionHead({ tag, title, intro }) {
   );
 }
 
-/* logo mark PayU */
+/* logo mark brand (huruf pertama dari BRAND.name) */
 export function Logo({ compact = false }) {
   return (
     <a href="#top" className="logo">
       <span className="logo-mark" aria-hidden="true">
-        P
+        {BRAND.name.charAt(0)}
       </span>
-      <span className="logo-text">PAYU</span>
-      {!compact && <span className="logo-sub">payment gateway</span>}
+      <span className="logo-text">{BRAND.name}</span>
+      {!compact && <span className="logo-sub">{BRAND.tagline}</span>}
     </a>
   );
 }

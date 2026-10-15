@@ -1,4 +1,4 @@
-import { TIMELINE } from "../data";
+import { TIMELINE, BRAND } from "../data";
 import { useCountdown } from "../hooks";
 import { SectionHead, Reveal } from "./ui";
 
@@ -24,12 +24,12 @@ export default function Program() {
     { v: t.sec, l: "DETIK" },
   ];
   return (
-    <section id="program" className="section">
+    <section id="onboarding" className="section">
       <div className="container">
         <SectionHead
           tag="05 / ONBOARDING"
           title="Aktivasi terukur, bukan janji."
-          intro="Alur go-live standar PayU — dari pendaftaran sampai transaksi pertama berjalan. Promo biaya layanan 0% berakhir dalam:"
+          intro={`Alur kerja sama standar ${BRAND.name} — dari audit produk sampai penjualan pertama berjalan. Promo bulan ini: audit & strategi GRATIS, berakhir dalam:`}
         />
         <div className="program-grid">
           <div className="timeline">
@@ -52,7 +52,7 @@ export default function Program() {
             <div className="countdown">
               <div className="countdown-head">
                 <iconify-icon icon="solar:alarm-linear" />
-                PROMO BIAYA LAYANAN 0% BERAKHIR DALAM
+                PROMO AUDIT &amp; STRATEGI GRATIS BERAKHIR DALAM
               </div>
               <div className="countdown-grid">
                 {cells.map((c) => (
@@ -66,7 +66,7 @@ export default function Program() {
               </div>
               <div className="countdown-foot">
                 <iconify-icon icon="solar:card-transfer-linear" />
-                TANPA BIAYA SETUP · TANPA BIAYA BULANAN · BEBAS KONTRAK JANGKA PANJANG
+                TANPA BIAYA AUDIT · TANPA KONTRAK MINIMUM · MODEL KOMISI BISA DIPILIH
               </div>
             </div>
           </Reveal>

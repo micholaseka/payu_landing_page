@@ -3,12 +3,12 @@ import { SectionHead, Reveal } from "./ui";
 
 export default function Why() {
   return (
-    <section id="mengapa" className="section section-alt">
+    <section id="keunggulan" className="section section-alt">
       <div className="container">
         <SectionHead
-          tag="03 / MENGAPA PAYU"
-          title="Dibangun sebagai satu sistem. Bukan tempelan."
-          intro="Cara biasa: satu vendor POS, satu mesin EDC, satu layanan invoice — beberapa kontrak, beberapa titik gagal. PayU menyatukan pembayaran, verifikasi, dan pelaporan dalam satu platform."
+          tag="03 / KEUNGGULAN"
+          title="Bukan sekadar beli iklan."
+          intro="Cara lama: iklan digede-gedeakan tanpa tahu mana yang benar-benar menghasilkan penjualan. Kami membangun promosi sebagai satu sistem — kreatif, kanal, dan afiliasi bergerak bersama, dengan angka yang bisa diperiksa kapan saja."
         />
         <div className="why-grid">
           {WHY.map((w, i) => (

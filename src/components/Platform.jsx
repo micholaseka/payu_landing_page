@@ -3,12 +3,12 @@ import { SectionHead, Reveal } from "./ui";
 
 export default function Platform() {
   return (
-    <section id="integrasi" className="section">
+    <section id="kerja-sama" className="section">
       <div className="container">
         <SectionHead
-          tag="04 / INTEGRASI"
-          title="Spesifikasi untuk produksi, bukan demo."
-          intro="Ringkasan apa yang langsung aktif ketika akun PayU-mu go-live:"
+          tag="04 / KERJA SAMA"
+          title="Kerja sama yang transparan."
+          intro="Yang langsung aktif begitu kerja sama dimulai:"
         />
         <Reveal>
           <div className="terminal">
@@ -17,11 +17,11 @@ export default function Platform() {
                 <span className="dot dot-red" />
                 <span className="dot dot-yellow" />
                 <span className="dot dot-green" />
-                <span className="terminal-name">payu-core — platform.spec</span>
+                <span className="terminal-name">naikan-core — kerja-sama.spec</span>
               </div>
               <span className="terminal-status">
                 <span className="terminal-status-dot" aria-hidden="true" />
-                SIAP GO-LIVE
+                SIAP GAS
               </span>
             </div>
             <div className="terminal-body">
@@ -39,8 +39,8 @@ export default function Platform() {
             </div>
           </div>
           <p className="caption">
-            BUTUH SKENARIO CUSTOM? TIM PAYU BANTU MENDESAIN ALUR INTEGRASIMU —
-            GRATIS UNTUK SEMUA MERCHANT.
+            BUTUH PAKET KHUSUS SESUAI MARGIN PRODUKMU? TIM KAMI BANTU SUSUN SEJAK
+            BRIEF PERTAMA.
           </p>
         </Reveal>
       </div>

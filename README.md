@@ -1,13 +1,16 @@
-# PayU — Landing Page (React + Vite)
+# NAIKAN — Landing Page Jasa Promosi & Affiliate (React + Vite)
 
-Landing page payment gateway PayU dengan desain **neo-brutalist** yang diadaptasi
-dari template referensi
+Landing page untuk perusahaan **jasa promosi/affiliate**: mempromosikan
+produk & jasa klien lewat affiliate marketing, social ads, dan influencer,
+dengan model bayar berbasis hasil.
+
+Desain **neo-brutalist** yang diadaptasi dari template referensi
 [TIDE Retail Commerce System (aura.build)](https://www.aura.build/templates/tide-retail-commerce-system-1).
 
 **Palet:** putih (paper) · navy (ink `#0a2540`) · kuning (`#ffc900`) · biru muda (`#8fd6f7`)
-**Gaya kunci:** border 2px navy, hard offset shadow `4px 4px 0`, font mono untuk label,
-heading chunky 800, grid backdrop, marquee strip kuning, interaksi
-(typewriter, count-up, pipeline interaktif, countdown, form validation).
+**Gaya kunci:** border 2px navy, sudut membulat, hard offset shadow `4px 4px 0`,
+font mono untuk label, heading chunky, marquee strip kuning, interaksi
+(typewriter, count-up, pipeline interaktif, countdown, validasi form).
 
 ## Menjalankan
 
@@ -38,30 +41,30 @@ src/
 ├── hooks.js                # useInView, useTypewriter, useCountdown, useCountUp
 ├── index.css               # tema: variabel warna di :root + semua style section
 └── components/
-    ├── ui.jsx              # Reveal, SectionHead, Logo (komponen bersama)
+    ├── ui.jsx              # Reveal, SectionHead, Logo (baca BRAND dari data)
     ├── ScrollProgress.jsx  # progress bar scroll
     ├── Navbar.jsx          # navbar fixed + menu mobile
     ├── Hero.jsx            # hero: badge, headline, typewriter, CTA
     ├── Marquee.jsx         # strip berjalan
     ├── Stats.jsx           # statistik count-up
-    ├── Features.jsx        # grid 8 modul pembayaran
-    ├── Why.jsx             # 3 kartu alasan
-    ├── Flow.jsx            # alur pembayaran 5 tahap (interaktif)
-    ├── Platform.jsx        # tabel spec gaya terminal
+    ├── Features.jsx        # grid 8 layanan promosi
+    ├── Why.jsx             # 3 kartu keunggulan
+    ├── Flow.jsx            # alur promosi 5 tahap (interaktif)
+    ├── Platform.jsx        # tabel paket kerja sama (gaya terminal)
     ├── Program.jsx         # timeline onboarding + countdown promo
-    ├── Contact.jsx         # form penawaran (validasi email)
+    ├── Contact.jsx         # form proposal (validasi email)
     └── Footer.jsx
 ```
 
 ## Kustomisasi cepat
 
-- **Teks/konten:** ubah `src/data.js` (nav, headline copy, stats, fitur,
-  alur, timeline, dll.) — tidak perlu sentuh komponen.
-- **Warna:** ubah variabel di `:root` pada `src/index.css`
-  (`--yellow`, `--blue`, `--ink`, `--shadow`).
-- **Target countdown promo:** `promoEnd()` di `src/components/Program.jsx`
-  (saat ini: akhir bulan berjalan).
-- **Email kontak:** `Contact.jsx` (`mailto`) dan `Footer.jsx`.
+- **Nama brand & CTA:** `BRAND` di `src/data.js` (logo & footer ikut otomatis)
+- **Teks/konten lain:** tetap di `src/data.js` (layanan, keunggulan, alur,
+  stats, timeline, spec kerja sama)
+- **Warna:** variabel di `:root` pada `src/index.css`
+  (`--yellow`, `--blue`, `--ink`, `--radius`, `--shadow`)
+- **Countdown promo:** `promoEnd()` di `src/components/Program.jsx`
+- **Email kontak:** `Contact.jsx` (`mailto`)
 
-> Catatan: halaman ini adalah demo untuk referensi desain dan tidak
-> berafiliasi resmi dengan PayU.
+> Catatan: halaman ini adalah demo untuk referensi desain — angka & klaim
+> bersifat ilustratif.

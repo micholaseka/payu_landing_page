@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NAV, BRAND } from "../data";
+import { NAV } from "../data";
 import { useScrolled } from "../hooks";
 import { Logo } from "./ui";
 
